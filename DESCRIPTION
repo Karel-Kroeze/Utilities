@@ -9,3 +9,5 @@ License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.0
 Suggests: testthat
+URL: https://github.com/Karel-Kroeze/Utilities
+BugReports: https://github.com/Karel-Kroeze/Utilities/issues
