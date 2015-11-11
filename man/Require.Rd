@@ -4,12 +4,12 @@
 \alias{Require}
 \title{Installs a required package if not available.}
 \usage{
-Require(package, ...)
+Require(..., github = NULL)
 }
 \arguments{
-\item{package}{string package name}
+\item{...}{string package name.}
 
-\item{...}{additional options passed on to \code{\link{install.packages}}.}
+\item{github}{string representation of github archive to install the package from.}
 }
 \value{
 none
