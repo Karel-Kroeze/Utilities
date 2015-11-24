@@ -3,8 +3,8 @@ Title: Personal utilities
 Version: 0.0.0.9000
 Authors@R: person("Karel", "Kroeze", email = "k.a.kroeze@utwente.nl", role = c("aut", "cre"))
 Description: Common personal utility functions.
-Depends: 
-    R (>= 3.2.2)
+Depends:
+    R (>= 3.2.0)
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.0
