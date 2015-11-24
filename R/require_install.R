@@ -11,7 +11,7 @@ Require <- function(..., github = NULL){
       Require("devtools")
       install_github(github)
     }
-    install.packages(...)
+    install.packages(..., repos = "http://cran.us.r-project.org")
     if (!require(...)) stop("Package not found.")
   }
 }
