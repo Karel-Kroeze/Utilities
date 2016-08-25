@@ -4,12 +4,12 @@
 \alias{Require}
 \title{Installs a required package if not available.}
 \usage{
-Require(..., github = NULL)
+Require(pkg, github = NULL)
 }
 \arguments{
-\item{...}{string package name.}
+\item{pkg}{string or literal package name.}
 
-\item{github}{string representation of github archive to install the package from.}
+\item{github}{string representation of github archive to install the package from if not found in local library. Will attempt to install from CRAN if left blank.}
 }
 \value{
 none
