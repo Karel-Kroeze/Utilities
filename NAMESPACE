@@ -2,6 +2,7 @@
 
 export(Require)
 export(read.all.xlsx)
+export(read.latest)
 import(magrittr)
 import(openxlsx)
 importFrom(devtools,install_github)
