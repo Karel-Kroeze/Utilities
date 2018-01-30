@@ -4,6 +4,7 @@
 #' @param folder path to folder
 #' @param pattern pattern to match files on. Note that by default files are filtered by file extensions correct for the type.
 #' @param ... further arguments passed to jsonlite::fromJSON, read.csv, openxlsx::read.xlsx, etc.
+#' @export
 #' @import magrittr
 #' @importFrom jsonlite fromJSON
 #' @importFrom openxlsx read.xlsx
