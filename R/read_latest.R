@@ -24,14 +24,13 @@ read.latest <- function( folder = NULL, filetype = "json", pattern = NULL, ... )
   }
 
   # start your job!
-  files <- list.files( folder, pattern )
+  files <- list.files( folder, pattern, full.names = T )
   info <- files %>% file.info
   if( (files %>% length ) <= 0 )
     stop( "no files matching '", pattern, "' at path '", folder, "'" )
 
   # get latest
   latest <- files[which.max(info$mtime)]
-  cat( latest )
 
   # read
   invisible( switch( filetype,
